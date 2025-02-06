@@ -6,13 +6,11 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
   - *bot-node*: Proceso del chatbot de WhatsApp desarrollado en nodejs, con la libreria open-source [BuilderBot](https://www.builderbot.app/en)
   - *front-prod*: Frontend de autogestión desarrolado en Angular (se utiliza como base la plantilla free "nice-admin-angular-lite")
   - *k8s*: manifiestos .yaml para el despliegue utilizando kubernetes
-  - *scripts bash*: archivos para automatizar la creacion de las imagenes y los contenedores para el despliegue local
+  - *scripts bash*: archivos para automatizar la creacion de las imagenes y los contenedores para el despliegue local con Docker
 
 *NOTAS: Para replicar este proyecto se debe tener en un servidor remoto una base de datos en PostgreSQL, conectandose a ella desde la variable de entorno PSQL_URI presente en cada deployment.yaml. Tambien se puede desplegar en un pod dentro del cluster y realizar las conexiones correspondientes al código actual.*
 
 ![{0AED5869-50E9-441E-BBBB-353066174267}](https://github.com/user-attachments/assets/80df8afa-8750-40e1-a80d-14911c93088e)
-
-![{1139DAE6-34A8-4C10-9D81-2CAEE392BF5A}](https://github.com/user-attachments/assets/7e2969f4-2a45-4f34-8bf9-0d630f2b2fdd)
 
 # Pasos para despligue
 
@@ -104,7 +102,6 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
 
     # App desplegada en EKS, resultado final:
     ![{DA6E8D43-9334-435B-8992-4C5DD15A85B4}](https://github.com/user-attachments/assets/944f6a08-128d-4585-b1a9-d5f5edd3a25a)
-    
-
+    ![{1139DAE6-34A8-4C10-9D81-2CAEE392BF5A}](https://github.com/user-attachments/assets/7e2969f4-2a45-4f34-8bf9-0d630f2b2fdd)
 
     
