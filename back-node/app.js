@@ -79,7 +79,7 @@ function resetBot(){// A traves de una petición POST solicitamos a "bot-node" e
   req.end();
 }
 
-app.get('/api/reset'/*, verifyToken*/, async (req, res) => {
+app.get('/api/reset', verifyToken, async (req, res) => {
   resetBot();
   res.send('reiniciando');
 })
