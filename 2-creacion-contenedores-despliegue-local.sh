@@ -15,18 +15,6 @@ echo "Red creada con exito!"
 
 echo "|||| CREANDO CONTENEDORES ||||"
 
-#back-node || en la variable de entorno "PSQL_URI" debes reemplazar con los valores de tu DB remota
-echo "iniciando contenedor de back-node..."
-docker run -dp 8000:8000 \
-  --name back-node-container \
-  -e PSQL_URI="postgresql://user:password@hostname/database" \
-  -e PORT="8000" \
-  back-node
-
-docker network connect bot-network back-node-container
-echo "back-node-container creado correctamente y conectado a la red!"
-echo
-
 #bot-node || en la variable de entorno "PSQL_URI" debes reemplazar con los valores de tu DB remota
 echo "iniciando contenedor de bot-node..."
 docker run -dp 3000:3000 \
@@ -38,6 +26,19 @@ docker run -dp 3000:3000 \
 
 docker network connect bot-network bot-node-container
 echo "bot-node-container creado correctamente y conectado a la red!"
+echo
+
+#back-node || en la variable de entorno "PSQL_URI" debes reemplazar con los valores de tu DB remota
+echo "iniciando contenedor de back-node..."
+docker run -dp 8000:8000 \
+  --name back-node-container \
+  -e PSQL_URI="postgresql://user:password@hostname/database" \
+  -e API_BOT="http://bot-node-container:3000" \
+  -e PORT="8000" \
+  back-node
+
+docker network connect bot-network back-node-container
+echo "back-node-container creado correctamente y conectado a la red!"
 echo
 
 #bot-front
