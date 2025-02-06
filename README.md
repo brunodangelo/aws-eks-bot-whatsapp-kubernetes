@@ -23,7 +23,8 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
 
 ### Paso 3 (Pruebas en un cluster minikube local OPCIONAL):
   - Ejecutar el siguiente comando en la consola local (crea un secret para obtener las imagenes desde ECR):
-    ```kubectl create secret docker-registry ecr-secret \
+    ```
+     kubectl create secret docker-registry ecr-secret \
      --docker-server=<id_cuenta>.dkr.ecr.us-east-1.amazonaws.com \
      --docker-username=AWS \
      --docker-password=$(aws ecr get-login-password --region us-east-1) \
