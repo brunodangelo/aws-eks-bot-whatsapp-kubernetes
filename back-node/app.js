@@ -50,8 +50,7 @@ function resetBot(){// A traves de una petición POST solicitamos a "bot-node" e
   const data = JSON.stringify({ type: 'reset-bot',});
 
   const options = {
-    hostname: 'botnode-container',
-    port: 3000,
+    hostname: process.env.API_BOT,
     path: '/reset',
     method: 'POST',
     headers: {
