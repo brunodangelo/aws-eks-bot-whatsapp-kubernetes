@@ -1,0 +1,124 @@
+2024-01-03 21:01:44.652 GMT [14796] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:01:44.652 GMT [11016] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:02:19.057 GMT [38252] ERROR:  error de sintaxis en o cerca de «'SELECT * FROM tests'» en carácter 1
+2024-01-03 21:02:19.057 GMT [38252] SENTENCIA:  'SELECT * FROM tests'
+2024-01-03 21:02:19.071 GMT [16264] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:03:39.604 GMT [3560] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:04:32.997 GMT [24404] ERROR:  update o delete en «perfiles» viola la llave foránea «test_perfil_id_fkey» en la tabla «tests»
+2024-01-03 21:04:32.997 GMT [24404] DETALLE:  La llave (perfil_id)=(423) todavía es referida desde la tabla «tests».
+2024-01-03 21:04:32.997 GMT [24404] SENTENCIA:  DELETE FROM perfiles WHERE perfil_id=423
+2024-01-03 21:04:33.014 GMT [38736] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:05:44.541 GMT [28192] ERROR:  update o delete en «perfiles» viola la llave foránea «test_perfil_id_fkey» en la tabla «tests»
+2024-01-03 21:05:44.541 GMT [28192] DETALLE:  La llave (perfil_id)=(423) todavía es referida desde la tabla «tests».
+2024-01-03 21:05:44.541 GMT [28192] SENTENCIA:  DELETE FROM perfiles WHERE perfil_id=423
+2024-01-03 21:05:59.497 GMT [37736] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:06:04.778 GMT [10212] ERROR:  update o delete en «perfiles» viola la llave foránea «test_perfil_id_fkey» en la tabla «tests»
+2024-01-03 21:06:04.778 GMT [10212] DETALLE:  La llave (perfil_id)=(423) todavía es referida desde la tabla «tests».
+2024-01-03 21:06:04.778 GMT [10212] SENTENCIA:  DELETE FROM perfiles WHERE perfil_id=423
+2024-01-03 21:07:56.031 GMT [15156] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:07:56.031 GMT [4256] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:11:43.771 GMT [30320] ERROR:  no existe la columna «asdasd» en carácter 35
+2024-01-03 21:11:43.771 GMT [30320] SENTENCIA:  DELETE FROM perfiles_status WHERE asdasd
+2024-01-03 21:13:24.940 GMT [6120] ERROR:  el valor nulo en la columna «rol_id» de la relación «roles» viola la restricción de no nulo
+2024-01-03 21:13:24.940 GMT [6120] DETALLE:  La fila que falla contiene (null, prueba).
+2024-01-03 21:13:24.940 GMT [6120] SENTENCIA:  INSERT INTO roles (nombre) VALUES ('prueba')
+2024-01-03 21:14:29.249 GMT [35888] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:29.249 GMT [35888] DETALLE:  Ya existe la llave (unidadagile_id)=(1).
+2024-01-03 21:14:29.249 GMT [35888] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:39.685 GMT [31944] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:39.685 GMT [31944] DETALLE:  Ya existe la llave (unidadagile_id)=(2).
+2024-01-03 21:14:39.685 GMT [31944] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:41.848 GMT [22612] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:41.848 GMT [22612] DETALLE:  Ya existe la llave (unidadagile_id)=(3).
+2024-01-03 21:14:41.848 GMT [22612] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:42.440 GMT [22504] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:42.440 GMT [22504] DETALLE:  Ya existe la llave (unidadagile_id)=(4).
+2024-01-03 21:14:42.440 GMT [22504] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:42.870 GMT [10344] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:42.870 GMT [10344] DETALLE:  Ya existe la llave (unidadagile_id)=(5).
+2024-01-03 21:14:42.870 GMT [10344] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:43.349 GMT [11672] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:43.349 GMT [11672] DETALLE:  Ya existe la llave (unidadagile_id)=(6).
+2024-01-03 21:14:43.349 GMT [11672] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:43.868 GMT [27232] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:43.868 GMT [27232] DETALLE:  Ya existe la llave (unidadagile_id)=(7).
+2024-01-03 21:14:43.868 GMT [27232] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:44.374 GMT [32220] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:44.374 GMT [32220] DETALLE:  Ya existe la llave (unidadagile_id)=(8).
+2024-01-03 21:14:44.374 GMT [32220] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:44.938 GMT [18308] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:44.938 GMT [18308] DETALLE:  Ya existe la llave (unidadagile_id)=(9).
+2024-01-03 21:14:44.938 GMT [18308] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:45.627 GMT [13808] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:45.627 GMT [13808] DETALLE:  Ya existe la llave (unidadagile_id)=(10).
+2024-01-03 21:14:45.627 GMT [13808] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:14:46.228 GMT [32948] ERROR:  llave duplicada viola restricción de unicidad «unidadagile_pkey»
+2024-01-03 21:14:46.228 GMT [32948] DETALLE:  Ya existe la llave (unidadagile_id)=(11).
+2024-01-03 21:14:46.228 GMT [32948] SENTENCIA:  INSERT INTO unidadagile (nombre,tipo_unidad_agile) VALUES ('prueba',1)
+2024-01-03 21:18:22.618 GMT [12160] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:06.201 GMT [24364] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.182 GMT [29700] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.182 GMT [31220] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.183 GMT [36160] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.183 GMT [37056] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.183 GMT [16952] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.183 GMT [37448] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-03 21:20:13.184 GMT [33696] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 12:59:43.848 GMT [33924] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 12:59:47.733 GMT [27404] ERROR:  error de sintaxis en o cerca de «[» en carácter 1
+2024-01-04 12:59:47.733 GMT [27404] SENTENCIA:  [object Undefined]
+2024-01-04 13:00:09.599 GMT [20016] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:00:21.124 GMT [24508] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:00:23.976 GMT [23568] ERROR:  error de sintaxis en o cerca de «[» en carácter 1
+2024-01-04 13:00:23.976 GMT [23568] SENTENCIA:  [object Undefined]
+2024-01-04 13:01:01.189 GMT [32260] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:01:18.672 GMT [19868] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:01:55.041 GMT [31988] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:02:04.493 GMT [6644] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:02:04.493 GMT [35360] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:02:44.882 GMT [31832] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:03:28.649 GMT [33676] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:03:45.860 GMT [34136] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:04:14.721 GMT [38852] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:04:14.721 GMT [36920] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:09:47.232 GMT [24936] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:15:33.166 GMT [28480] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:15:53.535 GMT [16224] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2024-01-04 13:15:53.535 GMT [16224] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2024-01-04 13:15:53.535 GMT [16224] SENTENCIA:  SELECT * FROM paises WHERE pais_id = $1
+2024-01-04 13:15:53.553 GMT [38548] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-04 13:37:39.798 GMT [10144] ERROR:  no existe la columna «version_assessment_id» en la relación «at_tests» en carácter 21
+2024-01-04 13:37:39.798 GMT [10144] SENTENCIA:  UPDATE at_tests SET version_assessment_id =1, agile_team_id=2, periodo='Q4', ano=2022, fecha_creacion='2023-01-04' WHERE at_test_id = 8

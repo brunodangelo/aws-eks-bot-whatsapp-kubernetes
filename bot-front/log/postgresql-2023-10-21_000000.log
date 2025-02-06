@@ -1,0 +1,29 @@
+2023-10-23 20:46:25.112 GMT [31768] ERROR:  no existe la columna tests.version_id en carácter 124
+2023-10-23 20:46:25.112 GMT [31768] SENTENCIA:  SELECT tests.*,agiles_teams.nombre as nombre_agileteam,paises.nombre as nombre_pais FROM tests INNER JOIN agiles_teams ON (tests.version_id = 3 AND tests.at_test_id != 428) INNER JOIN perfiles ON (perfiles.perfil_id=test.perfil_id) ORDER BY tests.periodo, tests.ano;
+2023-10-23 20:46:42.121 GMT [31768] ERROR:  no existe la columna tests.at_test_id en carácter 152
+2023-10-23 20:46:42.121 GMT [31768] HINT:  Probablemente quiera hacer referencia a la columna «tests.test_id».
+2023-10-23 20:46:42.121 GMT [31768] SENTENCIA:  SELECT tests.*,agiles_teams.nombre as nombre_agileteam,paises.nombre as nombre_pais FROM tests INNER JOIN agiles_teams ON (tests.assessment_id = 3 AND tests.at_test_id != 428) INNER JOIN perfiles ON (perfiles.perfil_id=test.perfil_id) ORDER BY tests.periodo, tests.ano;
+2023-10-23 20:46:48.328 GMT [31768] ERROR:  falta una entrada para la tabla «test» en la cláusula FROM en carácter 217
+2023-10-23 20:46:48.328 GMT [31768] SENTENCIA:  SELECT tests.*,agiles_teams.nombre as nombre_agileteam,paises.nombre as nombre_pais FROM tests INNER JOIN agiles_teams ON (tests.assessment_id = 3 AND tests.test_id != 428) INNER JOIN perfiles ON (perfiles.perfil_id=test.perfil_id) ORDER BY tests.periodo, tests.ano;
+2023-10-23 20:46:55.872 GMT [31768] ERROR:  falta una entrada para la tabla «paises» en la cláusula FROM en carácter 56
+2023-10-23 20:46:55.872 GMT [31768] SENTENCIA:  SELECT tests.*,agiles_teams.nombre as nombre_agileteam,paises.nombre as nombre_pais FROM tests INNER JOIN agiles_teams ON (tests.assessment_id = 3 AND tests.test_id != 428) INNER JOIN perfiles ON (perfiles.perfil_id=tests.perfil_id) ORDER BY tests.periodo, tests.ano;
+2023-10-23 20:47:56.975 GMT [31768] ERROR:  falta una entrada para la tabla «agiles_teams» en la cláusula FROM en carácter 16
+2023-10-23 20:47:56.975 GMT [31768] SENTENCIA:  SELECT tests.*,agiles_teams.nombre as nombre_agileteam FROM tests INNER JOIN perfiles ON (tests.assessment_id = 4 AND tests.test_id != 428 AND perfiles.perfil_id=tests.perfil_id) ORDER BY tests.periodo, tests.ano;
+2023-10-23 20:48:17.226 GMT [31768] ERROR:  error de sintaxis en o cerca de «AND» en carácter 1
+2023-10-23 20:48:17.226 GMT [31768] SENTENCIA:  AND tests.test_id != 428
+2023-10-23 21:01:20.306 GMT [21644] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-23 21:01:22.146 GMT [2196] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-23 21:01:22.147 GMT [31768] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-23 21:01:22.150 GMT [2508] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-23 21:01:22.156 GMT [33168] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-24 20:20:24.924 GMT [31084] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-24 21:04:33.083 GMT [20500] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-24 21:16:27.367 GMT [31984] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

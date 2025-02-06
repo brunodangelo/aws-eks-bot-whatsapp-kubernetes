@@ -1,0 +1,17 @@
+2023-10-09 03:48:20.085 GMT [10580] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 03:48:35.411 GMT [1608] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 03:48:35.412 GMT [3092] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 03:48:35.413 GMT [29444] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 03:48:35.414 GMT [33264] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 03:57:49.789 GMT [13628] ERROR:  falta una entrada para la tabla «paises» en la cláusula FROM en carácter 40
+2023-10-09 03:57:49.789 GMT [13628] SENTENCIA:  SELECT productividad.*,agiles_teams.*, paises.nombre as nombre_pais FROM productividad INNER JOIN agiles_teams ON (productividad.agile_team_id=agiles_teams.agile_team_id AND productividad.agile_team_id=1 AND productividad.ano=2022 AND productividad.periodo_id=4 AND productividad.tipo_dato_id=1)
+2023-10-09 03:59:39.409 GMT [22844] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-09 04:02:50.970 GMT [13628] ERROR:  error de sintaxis en o cerca de «SELECT» en carácter 344
+2023-10-09 04:02:50.970 GMT [13628] SENTENCIA:  SELECT calidad.*,agiles_teams.*, paises.nombre as nombre_pais FROM calidad INNER JOIN agiles_teams ON (calidad.agile_team_id=agiles_teams.agile_team_id AND calidad.tipo_calidad_id=1 AND calidad.agile_team_id=1 AND calidad.ano=2022 AND calidad.periodo_id=4 AND calidad.tipo_dato_id=1) INNER JOIN paises ON (agiles_teams.pais_id=paises.pais_id)
+	SELECT * FROM calidad WHERE tipo_calidad_id = $1 AND agile_team_id =$2 AND ano = $3 AND periodo_id = $4 AND tipo_dato_id =$5

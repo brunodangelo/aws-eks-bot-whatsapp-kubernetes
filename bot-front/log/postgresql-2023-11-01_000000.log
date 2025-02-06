@@ -1,0 +1,65 @@
+2023-11-02 18:49:19.426 GMT [43416] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:38:25.204 GMT [46652] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:44:33.617 GMT [37720] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:46:03.810 GMT [3808] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:46:03.810 GMT [3808] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id);
+2023-11-02 19:46:03.828 GMT [45960] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:46:43.080 GMT [7988] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:46:43.080 GMT [7988] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id);
+2023-11-02 19:46:43.090 GMT [11088] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:47:28.810 GMT [3156] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:47:28.810 GMT [3156] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=$1);
+2023-11-02 19:47:28.823 GMT [38056] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:49:17.742 GMT [29124] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:49:17.742 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:49:25.633 GMT [29124] ERROR:  error de sintaxis en o cerca de «==» en carácter 93
+2023-11-02 19:49:25.633 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id==skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:49:40.001 GMT [29124] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:49:40.001 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:49:40.674 GMT [29124] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:49:40.674 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:49:41.274 GMT [29124] ERROR:  error de sintaxis en o cerca de «=» en carácter 93
+2023-11-02 19:49:41.274 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:50:23.092 GMT [29124] ERROR:  error de sintaxis en o cerca de «;» en carácter 143
+2023-11-02 19:50:23.092 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN skills (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:50:24.589 GMT [29124] ERROR:  error de sintaxis en o cerca de «;» en carácter 143
+2023-11-02 19:50:24.589 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN skills (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45);
+2023-11-02 19:50:28.877 GMT [29124] ERROR:  error de sintaxis al final de la entrada en carácter 143
+2023-11-02 19:50:28.877 GMT [29124] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN skills (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=45)
+2023-11-02 19:50:55.619 GMT [33148] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-11-02 19:50:55.619 GMT [33148] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-11-02 19:50:55.619 GMT [33148] SENTENCIA:  SELECT detalles_skills.*, skills.* FROM detalles_skills INNER JOIN skills ON (detalles_skills.skill_id=skills.skill_id AND detalles_skills_id=$1);
+2023-11-02 19:50:55.638 GMT [18708] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:52:33.180 GMT [39448] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:52:33.181 GMT [3208] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:54:12.288 GMT [30300] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 19:54:12.288 GMT [46672] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 20:30:29.141 GMT [20272] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:17:33.248 GMT [45176] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.519 GMT [36612] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.519 GMT [7972] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.521 GMT [27588] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.522 GMT [39096] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.523 GMT [29124] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.523 GMT [46312] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-02 22:23:20.523 GMT [19664] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

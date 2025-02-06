@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bot-front
+  labels:
+    app: bot-front
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bot-front
+  template:
+    metadata:
+      labels:
+        app: bot-front
+    spec:
+      containers:
+      - name: bot-front-container
+        image: bot-front #Reemplazar por la uri de la imagen en ECR
+        ports:
+        - containerPort: 80
+        env:
+        - name: API_BACK
+          value: "http://back-node-container:8000/api" #Reemplazar por url en AWS
+        - name: API_BOT
+          value: "http://back-node-container:3000" #Reemplazar por url en AWS
+      imagePullSecrets:
+        - name: ecr-secret

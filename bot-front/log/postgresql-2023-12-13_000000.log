@@ -1,0 +1,26 @@
+2023-12-13 00:40:08.090 GMT [11012] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 13:37:47.736 GMT [25952] FATAL:  la autentificación password falló para el usuario «postgres»
+2023-12-13 13:37:47.736 GMT [25952] DETALLE:  La conexión coincidió con la línea 89 de pg_hba.conf: «host    all             all             ::1/128                 scram-sha-256»
+2023-12-13 13:37:49.901 GMT [12952] FATAL:  la autentificación password falló para el usuario «postgres»
+2023-12-13 13:37:49.901 GMT [12952] DETALLE:  La conexión coincidió con la línea 89 de pg_hba.conf: «host    all             all             ::1/128                 scram-sha-256»
+2023-12-13 13:40:50.353 GMT [14096] ERROR:  falta una entrada para la tabla Â«ima_dimensionsÂ» en la clÃ¡usula FROM en carÃ¡cter 8
+2023-12-13 13:40:50.353 GMT [14096] SENTENCIA:  SELECT ima_dimensions.*,ima_competencias.* FROM ima_dimensiones INNER JOIN ima_competencias ON (ima_dimensiones.version_ima_id=2 AND ima_dimensiones.ima_competencia_id=ima_competencias.ima_competencia_id);
+2023-12-13 14:01:15.677 GMT [24236] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 14:05:20.584 GMT [22192] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 20:25:42.860 GMT [10952] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 20:26:45.695 GMT [23372] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 21:00:54.725 GMT [2240] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 21:00:54.727 GMT [21980] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 21:00:54.728 GMT [28576] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 21:00:54.731 GMT [14096] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-13 21:58:22.148 GMT [32488] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

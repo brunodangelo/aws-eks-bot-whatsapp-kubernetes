@@ -1,0 +1,48 @@
+2023-10-25 20:59:30.904 GMT [16236] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:00:29.038 GMT [28644] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:04:27.382 GMT [22728] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:04:27.382 GMT [22728] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:04:27.382 GMT [22728] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-25 21:04:27.382 GMT [27960] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:04:27.382 GMT [27960] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:04:27.382 GMT [27960] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-25 21:04:27.382 GMT [25760] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:04:27.382 GMT [25760] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:04:27.382 GMT [25760] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-25 21:04:27.382 GMT [30788] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:04:27.382 GMT [30788] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:04:27.382 GMT [30788] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id=$1
+2023-10-25 21:04:27.457 GMT [30788] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:04:27.457 GMT [27960] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:04:27.457 GMT [25760] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:04:27.459 GMT [18616] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:04:27.518 GMT [6448] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:08:08.179 GMT [28848] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:08:08.179 GMT [28848] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:08:08.179 GMT [28848] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-25 21:08:08.179 GMT [14720] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:08:08.179 GMT [14720] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:08:08.179 GMT [14720] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id=$1
+2023-10-25 21:08:08.179 GMT [30112] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:08:08.179 GMT [30112] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:08:08.179 GMT [30112] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-25 21:08:08.181 GMT [30332] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-25 21:08:08.181 GMT [30332] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-25 21:08:08.181 GMT [30332] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-25 21:08:08.199 GMT [14720] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:08:08.199 GMT [30332] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:08:08.199 GMT [30112] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:08:08.201 GMT [24100] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-25 21:12:56.705 GMT [19596] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

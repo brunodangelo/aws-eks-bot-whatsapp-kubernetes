@@ -1,0 +1,96 @@
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at Object.readFromFile (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\node_modules\@whiskeysockets\baileys\lib\Store\make-in-memory-store.js:432:35)
+    at BaileysProvider.initVendor (C:\Users\bruno\Documents\Proyectos\bot-vcd-whatsapp\bot-v2\bot-node\node_modules\@builderbot\provider-baileys\dist\index.cjs:30089:37)

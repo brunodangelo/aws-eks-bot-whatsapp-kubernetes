@@ -1,0 +1,8 @@
+2023-12-07 18:29:41.856 GMT [18152] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-07 21:29:33.067 GMT [6720] LOG:  se recibió petición de apagado rápido
+2023-12-07 21:29:33.071 GMT [6720] LOG:  abortando transacciones activas
+2023-12-07 21:29:33.075 GMT [6504] ERROR:  cancelando la sentencia debido a una petición del usuario
+2023-12-07 21:29:33.091 GMT [6720] LOG:  proceso ayudante «logical replication launcher» (PID 6504) terminó con código de salida 1
+2023-12-07 21:29:33.093 GMT [6996] LOG:  apagando
+2023-12-07 21:29:33.139 GMT [6720] LOG:  el sistema de bases de datos está apagado

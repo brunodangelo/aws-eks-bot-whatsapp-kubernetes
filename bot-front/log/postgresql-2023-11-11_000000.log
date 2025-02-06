@@ -1,0 +1,7 @@
+2023-11-13 15:21:36.435 GMT [17216] ERROR:  llave duplicada viola restricción de unicidad «tests_pkey»
+2023-11-13 15:21:36.435 GMT [17216] DETALLE:  Ya existe la llave (test_id)=(444).
+2023-11-13 15:21:36.435 GMT [17216] SENTENCIA:  INSERT INTO tests (perfil_id, assessment_id, status, periodo, ano) VALUES ($1, $2, $3, $4, $5)
+2023-11-13 15:21:36.500 GMT [4700] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-13 15:26:56.044 GMT [15372] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

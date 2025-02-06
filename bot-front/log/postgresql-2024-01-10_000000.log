@@ -1,0 +1,6 @@
+2024-01-10 01:50:00.046 GMT [6316] LOG:  se recibió petición de apagado rápido
+2024-01-10 01:50:00.052 GMT [6316] LOG:  abortando transacciones activas
+2024-01-10 01:50:00.054 GMT [8004] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-01-10 01:50:00.071 GMT [6316] LOG:  proceso ayudante «logical replication launcher» (PID 8004) terminó con código de salida 1
+2024-01-10 01:50:00.073 GMT [7964] LOG:  apagando
+2024-01-10 01:50:00.150 GMT [6316] LOG:  el sistema de bases de datos está apagado

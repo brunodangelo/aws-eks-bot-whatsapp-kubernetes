@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bot-node
+  labels:
+    app: bot-node
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bot-node
+  template:
+    metadata:
+      labels:
+        app: bot-node
+    spec:
+      containers:
+      - name: bot-node-container
+        image: bot-node #Reemplazar por la uri de la imagen en ECR
+        ports:
+        - containerPort: 3000
+        env:
+        - name: PORT
+          value: "3000"
+        - name: PSQL_URI
+          value: "postgresql://user:password@hostname/database" #Reemplazar con los datos de su BD remota
+      imagePullSecrets:
+        - name: ecr-secret

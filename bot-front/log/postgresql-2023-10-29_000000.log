@@ -1,0 +1,53 @@
+2023-10-30 13:31:35.518 GMT [38092] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:32:57.441 GMT [19628] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:32:57.441 GMT [19628] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:32:57.441 GMT [19628] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-30 13:32:57.441 GMT [15924] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:32:57.441 GMT [15924] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:32:57.441 GMT [15924] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-30 13:32:57.441 GMT [34484] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:32:57.441 GMT [34484] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:32:57.441 GMT [34484] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id=$1
+2023-10-30 13:32:57.441 GMT [38904] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:32:57.441 GMT [38904] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:32:57.441 GMT [38904] SENTENCIA:  SELECT * FROM at_tests WHERE at_test_id = $1
+2023-10-30 13:32:57.468 GMT [15924] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:32:57.469 GMT [38904] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:32:57.469 GMT [9728] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:32:57.470 GMT [34484] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:32:57.478 GMT [3432] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:33:07.382 GMT [15744] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:33:07.382 GMT [15744] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:33:07.382 GMT [15744] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-30 13:33:07.399 GMT [2544] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:33:07.417 GMT [18600] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:34:52.152 GMT [39020] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:34:52.152 GMT [39020] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:34:52.152 GMT [39020] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-30 13:34:52.186 GMT [29516] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:34:52.186 GMT [33604] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:34:52.193 GMT [19460] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:34:52.193 GMT [5712] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:34:52.299 GMT [33880] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 13:35:56.994 GMT [32044] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-30 13:35:56.994 GMT [32044] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-30 13:35:56.994 GMT [32044] SENTENCIA:  SELECT at_tests.*,agiles_teams.*,trenes.*,agiles_teams.nombre as nombre_agileteam, trenes.nombre as nombre_tren, versiones_assessments_at.nombre as nombre_version, paises.nombre as nombre_pais FROM at_tests INNER JOIN agiles_teams ON (at_tests.agile_team_id = agiles_teams.agile_team_id AND at_tests.at_test_id=$1) INNER JOIN trenes ON (trenes.tren_id = agiles_teams.tren_id) INNER JOIN versiones_assessments_at ON (versiones_assessments_at.version_assessment_at_id = at_tests.version_assessment_at_id) INNER JOIN paises ON (paises.pais_id = agiles_teams.pais_id);
+2023-10-30 13:35:57.025 GMT [25500] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 14:20:47.174 GMT [6476] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-30 14:46:22.725 GMT [20560] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

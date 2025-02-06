@@ -1,0 +1,26 @@
+2023-11-28 19:10:12.323 GMT [18824] ERROR:  la columna «at_test_id» sólo puede actualizarse a DEFAULT
+2023-11-28 19:10:12.323 GMT [18824] DETALLE:  La columna "at_test_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-11-28 19:10:12.323 GMT [18824] SENTENCIA:  UPDATE public.at_tests SET
+	at_test_id = '128'::integer, version_assessment_at_id = '4'::integer WHERE
+	at_test_id = 127;
+2023-11-28 19:10:23.957 GMT [18824] ERROR:  la columna «at_test_id» sólo puede actualizarse a DEFAULT
+2023-11-28 19:10:23.957 GMT [18824] DETALLE:  La columna "at_test_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-11-28 19:10:23.957 GMT [18824] SENTENCIA:  UPDATE public.at_tests SET
+	at_test_id = '127'::integer, version_assessment_at_id = '4'::integer WHERE
+	at_test_id = 127;
+2023-11-28 20:31:09.696 GMT [12944] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:33:00.635 GMT [38376] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.796 GMT [44996] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.796 GMT [28092] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.796 GMT [20376] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.797 GMT [18824] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.797 GMT [14176] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-28 20:58:46.810 GMT [30844] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

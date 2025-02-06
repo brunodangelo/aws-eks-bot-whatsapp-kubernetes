@@ -1,0 +1,133 @@
+2024-01-10 01:50:26.358 GMT [6240] LOG:  iniciando PostgreSQL 14.8, compiled by Visual C++ build 1914, 64-bit
+2024-01-10 01:50:26.359 GMT [6240] LOG:  escuchando en la direcci�n IPv6 �::�, port 5432
+2024-01-10 01:50:26.359 GMT [6240] LOG:  escuchando en la direcci�n IPv4 �0.0.0.0�, port 5432
+2024-01-10 01:50:26.465 GMT [7740] LOG:  el sistema de bases de datos fue apagado en 2024-01-10 01:50:00 GMT
+2024-01-10 01:50:26.612 GMT [6240] LOG:  el sistema de bases de datos est� listo para aceptar conexiones
+2024-01-10 13:46:19.964 GMT [4992] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 13:46:19.964 GMT [4992] DETALLE:  La fila que falla contiene (360, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 13:46:19.964 GMT [4992] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+2024-01-10 13:46:20.101 GMT [15180] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:09:27.661 GMT [13376] ERROR:  INSERT tiene más columnas de destino que expresiones en carácter 138
+2024-01-10 14:09:27.661 GMT [13376] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+2024-01-10 14:09:27.661 GMT [9540] ERROR:  INSERT tiene más columnas de destino que expresiones en carácter 138
+2024-01-10 14:09:27.661 GMT [9540] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
+2024-01-10 14:09:27.674 GMT [9540] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:09:27.676 GMT [26320] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:10:50.880 GMT [27728] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:10:50.880 GMT [27728] DETALLE:  La fila que falla contiene (361, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:10:50.880 GMT [27728] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:10:50.882 GMT [16828] ERROR:  sintaxis de entrada no válida para tipo json
+2024-01-10 14:10:50.882 GMT [16828] DETALLE:  Se esperaba «:», se encontró «,».
+2024-01-10 14:10:50.882 GMT [16828] CONTEXTO:  Datos JSON, línea 1: ...\"ECOM-278\",\"tipo\":\"Feature Desarrollo\"}]}",...
+	portal sin nombre, parámetro 11 = '...'
+2024-01-10 14:10:50.882 GMT [16828] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:10:50.894 GMT [16828] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:10:50.896 GMT [27144] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:12:34.999 GMT [24272] ERROR:  sintaxis de entrada no válida para tipo json
+2024-01-10 14:12:34.999 GMT [24272] DETALLE:  Se esperaba «:», se encontró «,».
+2024-01-10 14:12:34.999 GMT [24272] CONTEXTO:  Datos JSON, línea 1: ...\"ECOM-278\",\"tipo\":\"Feature Desarrollo\"}]}",...
+	portal sin nombre, parámetro 11 = '...'
+2024-01-10 14:12:34.999 GMT [24272] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:12:34.999 GMT [27372] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:12:34.999 GMT [27372] DETALLE:  La fila que falla contiene (362, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:12:34.999 GMT [27372] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:12:35.017 GMT [27372] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:12:35.018 GMT [3276] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:14:37.397 GMT [26764] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:14:37.397 GMT [26764] DETALLE:  La fila que falla contiene (363, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:14:37.397 GMT [26764] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:14:37.413 GMT [13696] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:14:37.413 GMT [27924] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:17:25.443 GMT [3512] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:17:25.443 GMT [3512] DETALLE:  La fila que falla contiene (366, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:17:25.443 GMT [3512] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:17:25.456 GMT [24744] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:17:25.456 GMT [27176] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:19:22.692 GMT [12696] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:19:22.692 GMT [12696] DETALLE:  La fila que falla contiene (367, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:19:22.692 GMT [12696] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:19:22.710 GMT [13784] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:19:22.710 GMT [24264] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:20:45.028 GMT [27096] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:20:45.028 GMT [27096] DETALLE:  La fila que falla contiene (369, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:20:45.028 GMT [27096] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:20:45.046 GMT [15592] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:20:45.046 GMT [21304] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:22:07.993 GMT [27484] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:22:07.993 GMT [27484] DETALLE:  La fila que falla contiene (371, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:22:07.993 GMT [27484] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:22:07.993 GMT [12400] ERROR:  sintaxis de entrada no válida para tipo json
+2024-01-10 14:22:07.993 GMT [12400] DETALLE:  Se esperaba «:», se encontró «,».
+2024-01-10 14:22:07.993 GMT [12400] CONTEXTO:  Datos JSON, línea 1: ...\"ECOM-278\",\"tipo\":\"Feature Desarrollo\"}]}",...
+	portal sin nombre, parámetro 11 = '...'
+2024-01-10 14:22:07.993 GMT [12400] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:22:08.002 GMT [12400] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:22:08.004 GMT [25336] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:23:29.010 GMT [17092] ERROR:  sintaxis de entrada no válida para tipo json
+2024-01-10 14:23:29.010 GMT [17092] DETALLE:  Se esperaba «:», se encontró «,».
+2024-01-10 14:23:29.010 GMT [17092] CONTEXTO:  Datos JSON, línea 1: ...\"ECOM-278\",\"tipo\":\"Feature Desarrollo\"}]}",...
+	portal sin nombre, parámetro 11 = '...'
+2024-01-10 14:23:29.010 GMT [17092] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:23:29.036 GMT [28220] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:23:29.046 GMT [11008] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:25:50.962 GMT [14892] ERROR:  sintaxis de entrada no válida para tipo json
+2024-01-10 14:25:50.962 GMT [14892] DETALLE:  Se esperaba «:», se encontró «,».
+2024-01-10 14:25:50.962 GMT [14892] CONTEXTO:  Datos JSON, línea 1: ...\"ECOM-278\",\"tipo\":\"Feature Desarrollo\"}]}",...
+	portal sin nombre, parámetro 11 = '...'
+2024-01-10 14:25:50.962 GMT [14892] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:25:50.962 GMT [25712] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:25:50.962 GMT [25712] DETALLE:  La fila que falla contiene (372, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:25:50.962 GMT [25712] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:25:50.975 GMT [14892] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:25:50.977 GMT [27244] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:27:11.852 GMT [27056] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:27:11.852 GMT [27056] DETALLE:  La fila que falla contiene (373, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:27:11.852 GMT [27056] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:27:11.863 GMT [27600] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:27:11.863 GMT [24616] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:30:43.096 GMT [20868] ERROR:  el valor nulo en la columna «ano» de la relación «t2m» viola la restricción de no nulo
+2024-01-10 14:30:43.096 GMT [20868] DETALLE:  La fila que falla contiene (376, null, null, null, null, null, null, null, null, null, null, null).
+2024-01-10 14:30:43.096 GMT [20868] SENTENCIA:  INSERT INTO t2m (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, agile_teams_dev, total_agile_teams_dev, valor, meta, homologado, detalles ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+2024-01-10 14:30:43.113 GMT [20516] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 14:30:43.113 GMT [24264] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 15:06:14.567 GMT [7844] ERROR:  el valor nulo en la columna «cumplimiento_medicion» de la relación «productividad» viola la restricción de no nulo
+2024-01-10 15:06:14.567 GMT [7844] DETALLE:  La fila que falla contiene (472, 1, 2023, 4, null, 4, 78, 10, null, null, 7.8, null, null, f, null).
+2024-01-10 15:06:14.567 GMT [7844] SENTENCIA:  INSERT INTO productividad (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, features,agile_teams_dev, total_agile_teams_dev, cumplimiento_medicion,valor, meta, mejora, homologado ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
+2024-01-10 15:06:14.567 GMT [26004] ERROR:  el valor nulo en la columna «cumplimiento_medicion» de la relación «productividad» viola la restricción de no nulo
+2024-01-10 15:06:14.567 GMT [26004] DETALLE:  La fila que falla contiene (471, 3, 2023, 4, null, 4, 143, 11, null, null, 13, null, null, f, null).
+2024-01-10 15:06:14.567 GMT [26004] SENTENCIA:  INSERT INTO productividad (tipo_dato_id, ano, periodo_id, date_id, agile_team_id, features,agile_teams_dev, total_agile_teams_dev, cumplimiento_medicion,valor, meta, mejora, homologado ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)
+2024-01-10 15:06:14.614 GMT [26004] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 15:06:14.616 GMT [2280] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 15:06:14.616 GMT [4580] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 15:06:14.620 GMT [27560] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 15:23:51.532 GMT [28072] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

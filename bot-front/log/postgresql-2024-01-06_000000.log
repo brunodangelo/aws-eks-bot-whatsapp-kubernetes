@@ -1,0 +1,6 @@
+2024-01-06 00:05:44.521 GMT [7320] LOG:  se recibió petición de apagado rápido
+2024-01-06 00:05:44.531 GMT [9240] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-01-06 00:05:44.531 GMT [7320] LOG:  abortando transacciones activas
+2024-01-06 00:05:44.547 GMT [7320] LOG:  proceso ayudante «logical replication launcher» (PID 9240) terminó con código de salida 1
+2024-01-06 00:05:44.550 GMT [8412] LOG:  apagando
+2024-01-06 00:05:44.628 GMT [7320] LOG:  el sistema de bases de datos está apagado

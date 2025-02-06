@@ -1,0 +1,47 @@
+<div style="height: 78.6vh;"></div>
+<div
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        style="display: block;position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1040;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(15px);">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title text-center">Iniciar Sesión</h4>
+                </div>
+                <div class="card">
+                    <b class="logo-icon">
+                        <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
+                        <!-- Light Logo icon -->
+                        <img
+                          src="assets/images/logos/logo.png"
+                          alt="homepage"
+                          class="light-logo rounded mx-auto d-block"
+                        />
+                      </b>
+                    <div class="card-body">
+                        <form (submit)="signIn()">
+                            <div class="form-group">
+                                <input type="text" [(ngModel)]="user.email" name="email" class="form-control" placeholder="Usuario" required autofocus>
+                            </div>
+                            <div class="form-group" style="margin-top: 10px;">
+                                <input type="password" [(ngModel)]="user.password" name="password" class="form-control" placeholder="Contraseña" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success d-grid gap-2 col-6 mx-auto" (click)="signIn()">
+                        Ingresar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>

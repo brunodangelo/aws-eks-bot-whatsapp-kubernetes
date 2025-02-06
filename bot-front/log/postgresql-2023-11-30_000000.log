@@ -1,0 +1,6 @@
+2023-11-30 04:26:30.504 GMT [6576] LOG:  se recibió petición de apagado rápido
+2023-11-30 04:26:30.507 GMT [6576] LOG:  abortando transacciones activas
+2023-11-30 04:26:30.514 GMT [5956] ERROR:  cancelando la sentencia debido a una petición del usuario
+2023-11-30 04:26:30.540 GMT [6576] LOG:  proceso ayudante «logical replication launcher» (PID 5956) terminó con código de salida 1
+2023-11-30 04:26:30.543 GMT [8428] LOG:  apagando
+2023-11-30 04:26:30.604 GMT [6576] LOG:  el sistema de bases de datos está apagado

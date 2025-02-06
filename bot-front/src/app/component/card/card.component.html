@@ -1,0 +1,75 @@
+<div class="card">
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table align-middle">
+          <thead>
+              <tr>
+                  <th class="text-dark font-medium fs-4">N° Opcion</th>
+                  <th class="text-dark font-medium fs-4">Nombre de Opcion</th>
+                  <th class="text-dark font-medium fs-4">Descripción</th>
+                  <th class="text-dark font-medium fs-4"></th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor='let ts of opciones'>
+                  <td>
+                      <div class="d-flex align-items-center">
+                          <div class="ms-3">
+                              <h5 class="mb-0 font-medium">{{ts.opcion_bot_id}}</h5>
+                              <!--<span class="text-muted">{{ts.gmail}}</span>-->
+                          </div>
+                      </div>
+                  </td>
+                  <td class="fs-4">{{ts.nombre}}</td>
+                  <td>
+                    {{ts.descripcion}}
+                  </td>
+                  
+                  <td>
+                      <button type="button" class="btn btn-primary" (click)="openPopup(ts.opcion_id)">EDITAR</button>
+                  </td>
+              </tr>              
+          </tbody>
+      </table>
+      <div
+        class="modal"
+        tabindex="-1"
+        role="dialog"
+        style="display: {{displayStyle}}">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Editar Opcion</h4>
+                </div>
+                <div class="p-2">
+                  <form>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput">Número de Opción</label>
+                      <input type="text" class="form-control" name="d1" id="opcion" [(ngModel)]=opcion.opcion_bot_id disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput2">Nombre</label>
+                      <input type="text" class="form-control" name="a1" id="nombre1" [(ngModel)]=opcion.nombre disabled>
+                    </div>
+                    <div class="form-group">
+                      <label for="formGroupExampleInput2">Descripción</label>
+                      <textarea type="text" rows="10" class="form-control" name="a2" id="nombre2" [(ngModel)]=opcion.descripcion></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" 
+                              (click)="updateOpcion(opcion.opcion_id,opcion)">
+                      Guardar
+                    </button>
+                    <button type="button" class="btn btn-danger" 
+                            (click)="closePopup()">
+                    Cerrar
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div>

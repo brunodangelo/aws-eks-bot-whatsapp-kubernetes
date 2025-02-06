@@ -1,0 +1,68 @@
+<div class="card">
+    <div class="card-body">
+        <!-- title -->
+                <h4 class="card-title d-inline">Alertas</h4>
+                <a class="d-inline p-2 " (click)="ngOnInit()">
+                    <i class="bi bi-arrow-clockwise d-inline"></i>
+                </a>
+                <h5 class="card-subtitle">Activas actualmente</h5>
+                <a class="btn btn-primary mx-auto" (click)="refresh()" *ngIf="alertas.length!=0">
+                    <i class="bi bi-arrow-clockwise mx-auto"></i>
+                </a>
+                <button type="button" class="btn btn-danger" (click)="deleteTodasAlertas()" style="margin-left: 10px;" *ngIf="alertas.length!=0">BORRAR TODAS</button>
+        <!-- title -->
+        <div class="table-responsive">
+            <table class="table align-middle">
+                <thead>
+                    <tr>
+                        <th class="text-dark font-medium fs-4">Solicitante</th>
+                        <th class="text-dark font-medium fs-4">Tipo</th>
+                        <th class="text-dark font-medium fs-4">Servicio</th>
+                        <th class="text-dark font-medium fs-4">Estado</th>
+                        <th class="text-dark font-medium fs-4">Dia / Hora</th>
+                        <th class="text-dark font-medium fs-4">ID</th>
+                        <th class="text-dark font-medium fs-4"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let ts of alertas'>
+                        <td>
+                            <div class="d-flex align-items-center">
+                                <img src="assets/images/users/user2.jpg" alt="user" width="45" class="rounded-circle">
+                                <div class="ms-3">
+                                    <h5 class="mb-0 font-medium">{{ts.destino}}</h5>
+                                    <!--<span class="text-muted">{{ts.gmail}}</span>-->
+                                </div>
+                            </div>
+                        </td>
+                        <td class="fs-4">{{ts.tipo}}</td>
+                        <td class="fs-4">{{ts.subtipo}}</td>
+                        <td>
+                            <span class="p-2 bg-danger rounded-circle d-inline-block ms-3" *ngIf="ts.tipo=='Problemas con el servicio'"></span>
+                            <span class="p-2 bg-primary rounded-circle d-inline-block ms-3" *ngIf="ts.tipo=='Informar Pago'"></span>
+                            <span class="p-2 bg-success rounded-circle d-inline-block ms-3" *ngIf="ts.tipo=='Consultar Cobertura'"></span>
+                        </td>
+
+                        
+                        <td>
+                            <h5 class="mb-0 fw-normal">{{ts.hora | date:'dd/MM/yyyy HH:mm'}}</h5>
+                        </td>
+                        <td>
+                            <h5 class="mb-0 fw-normal">{{ts.alerta_id}}</h5>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-primary" (click)="deleteAlerta(ts.alerta_id)">OK</button>
+                        </td>
+                    </tr>              
+                </tbody>
+            </table>
+            <div class="d-grid gap-2 col-2 mx-auto" *ngIf="alertas.length==0">
+                <p class="text-center" >No hay alertas</p>
+                <a class="btn btn-primary mx-auto" (click)="refresh()">
+                    <i class="bi bi-arrow-clockwise mx-auto"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+</div>

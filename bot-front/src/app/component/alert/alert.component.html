@@ -1,0 +1,51 @@
+<div class="card">
+  <div class="card-body">
+    <div class="table-responsive">
+      <table class="table align-middle">
+          <thead>
+              <tr>
+                  <th class="text-dark font-medium fs-4">Solicitante</th>
+                  <th class="text-dark font-medium fs-4">Tipo</th>
+                  <th class="text-dark font-medium fs-4">Estado</th>
+                  <th class="text-dark font-medium fs-4">Dia / Hora</th>
+                  <th class="text-dark font-medium fs-4">ID</th>
+                  <th class="text-dark font-medium fs-4"></th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr *ngFor='let ts of alertas'>
+                  <td>
+                      <div class="d-flex align-items-center">
+                          <img src="assets/images/users/user2.jpg" alt="user" width="45" class="rounded-circle">
+                          <div class="ms-3">
+                              <h5 class="mb-0 font-medium">{{ts.destino}}</h5>
+                              <!--<span class="text-muted">{{ts.gmail}}</span>-->
+                          </div>
+                      </div>
+                  </td>
+                  <td class="fs-4">{{ts.tipo}}</td>
+                  <td>
+                      <span class="p-2 bg-warning rounded-circle d-inline-block ms-3"></span>
+                  </td>
+                  
+                  <td>
+                      <h5 class="mb-0 fw-normal">{{ts.hora}}</h5>
+                  </td>
+                  <td>
+                      <h5 class="mb-0 fw-normal">{{ts.alerta_id}}</h5>
+                  </td>
+                  <td>
+                      <button type="button" class="btn btn-primary" (click)="deleteAlerta(ts.alerta_id)">OK</button>
+                  </td>
+              </tr>              
+          </tbody>
+      </table>
+      <div class="d-grid gap-2 col-2 mx-auto" *ngIf="alertas.length==0">
+          <p class="text-center" >No hay alertas</p>
+          <a class="btn btn-primary mx-auto" (click)="ngOnInit()">
+              <i class="bi bi-arrow-clockwise mx-auto"></i>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>

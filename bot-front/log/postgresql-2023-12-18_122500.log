@@ -1,0 +1,86 @@
+2023-12-18 12:25:00.983 GMT [6672] LOG:  iniciando PostgreSQL 14.8, compiled by Visual C++ build 1914, 64-bit
+2023-12-18 12:25:00.984 GMT [6672] LOG:  escuchando en la dirección IPv6 «::», port 5432
+2023-12-18 12:25:00.984 GMT [6672] LOG:  escuchando en la dirección IPv4 «0.0.0.0», port 5432
+2023-12-18 12:25:01.043 GMT [7124] LOG:  el sistema de bases de datos fue apagado en 2023-12-18 04:59:31 GMT
+2023-12-18 12:25:01.133 GMT [6672] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2023-12-18 19:55:30.099 GMT [19464] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 19:55:30.099 GMT [22580] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 19:55:30.099 GMT [22880] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 19:55:30.099 GMT [15876] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 19:55:30.101 GMT [14900] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 19:55:30.101 GMT [20308] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 20:16:21.070 GMT [10116] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 20:18:12.304 GMT [10912] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 20:23:20.354 GMT [12220] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:15:38.897 GMT [8716] ERROR:  no existe la columna Â«version_assessment_at_idÂ» en carÃ¡cter 44
+2023-12-18 21:15:38.897 GMT [8716] SENTENCIA:  SELECT * FROM enunciados_assessments WHERE version_assessment_at_id=3;
+2023-12-18 21:15:50.078 GMT [8716] ERROR:  no existe la columna Â«version_assessment_idÂ» en carÃ¡cter 44
+2023-12-18 21:15:50.078 GMT [8716] SENTENCIA:  SELECT * FROM enunciados_assessments WHERE version_assessment_id=3;
+2023-12-18 21:19:09.117 GMT [8716] ERROR:  el valor nulo en la columna Â«valorÂ» de la relaciÃ³n Â«at_opcionesÂ» viola la restricciÃ³n de no nulo
+2023-12-18 21:19:09.117 GMT [8716] DETALLE:  La fila que falla contiene (126, 3, 65, 1.El Agile Team no tiene OKRs definidos, null, null).
+2023-12-18 21:19:09.117 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	version_assessment_at_id, at_enunciado_id, texto) VALUES (
+	'3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying)
+	 returning at_opcion_id;
+2023-12-18 21:21:26.925 GMT [8716] ERROR:  no se puede insertar un valor no-predeterminado en la columna Â«at_opcion_idÂ»
+2023-12-18 21:21:26.925 GMT [8716] DETALLE:  La columna "at_opcion_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-12-18 21:21:26.925 GMT [8716] HINT:  Use OVERRIDING SYSTEM VALUE para controlar manualmente.
+2023-12-18 21:21:26.925 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	at_opcion_id, version_assessment_at_id, at_enunciado_id, texto) VALUES (
+	'214'::integer, '3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying)
+	 returning at_opcion_id;
+2023-12-18 21:21:44.480 GMT [8716] ERROR:  no se puede insertar un valor no-predeterminado en la columna Â«at_opcion_idÂ»
+2023-12-18 21:21:44.480 GMT [8716] DETALLE:  La columna "at_opcion_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-12-18 21:21:44.480 GMT [8716] HINT:  Use OVERRIDING SYSTEM VALUE para controlar manualmente.
+2023-12-18 21:21:44.480 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	at_opcion_id, version_assessment_at_id, at_enunciado_id, texto) VALUES (
+	'215'::integer, '3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying)
+	 returning at_opcion_id;
+2023-12-18 21:21:48.040 GMT [8716] ERROR:  no se puede insertar un valor no-predeterminado en la columna Â«at_opcion_idÂ»
+2023-12-18 21:21:48.040 GMT [8716] DETALLE:  La columna "at_opcion_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-12-18 21:21:48.040 GMT [8716] HINT:  Use OVERRIDING SYSTEM VALUE para controlar manualmente.
+2023-12-18 21:21:48.040 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	at_opcion_id, version_assessment_at_id, at_enunciado_id, texto) VALUES (
+	'214'::integer, '3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying)
+	 returning at_opcion_id;
+2023-12-18 21:22:02.008 GMT [8716] ERROR:  no se puede insertar un valor no-predeterminado en la columna Â«at_opcion_idÂ»
+2023-12-18 21:22:02.008 GMT [8716] DETALLE:  La columna "at_opcion_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-12-18 21:22:02.008 GMT [8716] HINT:  Use OVERRIDING SYSTEM VALUE para controlar manualmente.
+2023-12-18 21:22:02.008 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	at_opcion_id, version_assessment_at_id, at_enunciado_id, texto, valor) VALUES (
+	'214'::integer, '3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying, '1'::integer)
+	 returning at_opcion_id;
+2023-12-18 21:22:03.203 GMT [8716] ERROR:  no se puede insertar un valor no-predeterminado en la columna Â«at_opcion_idÂ»
+2023-12-18 21:22:03.203 GMT [8716] DETALLE:  La columna "at_opcion_id" es una columna de identidad definida como GENERATED ALWAYS.
+2023-12-18 21:22:03.203 GMT [8716] HINT:  Use OVERRIDING SYSTEM VALUE para controlar manualmente.
+2023-12-18 21:22:03.203 GMT [8716] SENTENCIA:  INSERT INTO public.at_opciones (
+	at_opcion_id, version_assessment_at_id, at_enunciado_id, texto, valor) VALUES (
+	'214'::integer, '3'::integer, '65'::integer, '1.El Agile Team no tiene OKRs definidos'::character varying, '1'::integer)
+	 returning at_opcion_id;
+2023-12-18 21:45:17.131 GMT [22508] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:45:17.131 GMT [8716] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:45:17.131 GMT [10468] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:45:17.131 GMT [6600] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:45:17.132 GMT [23592] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 21:45:44.403 GMT [25120] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-12-18 23:38:26.526 GMT [6672] LOG:  se recibió petición de apagado rápido
+2023-12-18 23:38:26.532 GMT [6672] LOG:  abortando transacciones activas
+2023-12-18 23:38:26.532 GMT [7144] ERROR:  cancelando la sentencia debido a una petición del usuario
+2023-12-18 23:38:26.554 GMT [6672] LOG:  proceso ayudante «logical replication launcher» (PID 7144) terminó con código de salida 1
+2023-12-18 23:38:26.557 GMT [5680] LOG:  apagando
+2023-12-18 23:38:26.588 GMT [6672] LOG:  el sistema de bases de datos está apagado

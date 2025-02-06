@@ -1,0 +1,16 @@
+2023-11-14 19:48:48.959 GMT [22572] ERROR:  falta una entrada para la tabla «agiles_teams» en la cláusula FROM en carácter 25
+2023-11-14 19:48:48.959 GMT [22572] SENTENCIA:  SELECT planes_accion.*, agiles_teams.*, at_tests.* FROM planes_accion INNER JOIN at_tests ON (planes_accion.id=at_tests.at_test_id AND planes_accion.tipo='at' AND at_tests.periodo='Q2' AND at_tests.ano=2023)
+2023-11-14 20:46:23.510 GMT [29136] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:19.104 GMT [9472] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:19.109 GMT [22276] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:19.109 GMT [3328] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:19.109 GMT [25980] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:19.113 GMT [10764] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-11-14 21:01:30.338 GMT [27308] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

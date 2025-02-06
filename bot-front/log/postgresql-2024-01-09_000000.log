@@ -1,0 +1,19 @@
+2024-01-09 00:22:58.879 GMT [29916] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-09 00:22:58.879 GMT [24420] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-09 00:22:58.879 GMT [26660] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-09 00:23:22.539 GMT [20944] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-09 15:43:43.079 GMT [20484] LOG:  el de paquete de inicio tiene largo incorrecto
+2024-01-09 15:43:46.765 GMT [21980] LOG:  el de paquete de inicio tiene largo incorrecto
+2024-01-09 15:44:23.836 GMT [28688] LOG:  el de paquete de inicio tiene largo incorrecto
+2024-01-09 15:44:48.414 GMT [21836] LOG:  el de paquete de inicio tiene largo incorrecto
+2024-01-09 15:45:56.726 GMT [9148] LOG:  el de paquete de inicio tiene largo incorrecto
+2024-01-09 18:24:12.169 GMT [20364] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-09 22:42:19.988 GMT [9108] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-10 01:49:23.812 GMT [20028] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

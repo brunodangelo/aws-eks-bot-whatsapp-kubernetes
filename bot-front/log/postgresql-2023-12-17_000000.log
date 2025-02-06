@@ -1,0 +1,6 @@
+2023-12-18 04:58:12.996 GMT [6988] LOG:  se recibió petición de apagado rápido
+2023-12-18 04:58:13.003 GMT [6988] LOG:  abortando transacciones activas
+2023-12-18 04:58:13.005 GMT [7904] ERROR:  cancelando la sentencia debido a una petición del usuario
+2023-12-18 04:58:13.013 GMT [6988] LOG:  proceso ayudante «logical replication launcher» (PID 7904) terminó con código de salida 1
+2023-12-18 04:58:13.032 GMT [7852] LOG:  apagando
+2023-12-18 04:58:13.110 GMT [6988] LOG:  el sistema de bases de datos está apagado

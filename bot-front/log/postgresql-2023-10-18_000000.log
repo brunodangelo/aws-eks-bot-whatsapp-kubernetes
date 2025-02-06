@@ -1,0 +1,83 @@
+2023-10-18 16:02:23.490 GMT [14924] ERROR:  la sintaxis de entrada no es válida para tipo integer: «NaN»
+2023-10-18 16:02:23.490 GMT [14924] CONTEXTO:  portal sin nombre, parámetro 1 = '...'
+2023-10-18 16:02:23.490 GMT [14924] SENTENCIA:  SELECT tests.*,perfiles.*,paises.*, paises.nombre as nombre_pais FROM tests INNER JOIN perfiles ON (tests.perfil_id = perfiles.perfil_id AND perfiles.pais_id=$1) INNER JOIN paises ON (paises.pais_id = perfiles.pais_id);
+2023-10-18 16:02:23.612 GMT [23864] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:23:45.410 GMT [17212] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:26:40.582 GMT [7992] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:01.993 GMT [24424] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:50.432 GMT [29520] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.775 GMT [15036] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.775 GMT [8736] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.776 GMT [7252] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.777 GMT [23172] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.777 GMT [29484] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.778 GMT [3396] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:27:58.778 GMT [10172] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.284 GMT [3180] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.284 GMT [2524] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.284 GMT [12412] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.284 GMT [25164] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.285 GMT [22956] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.285 GMT [22632] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:37:43.285 GMT [21184] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.201 GMT [24136] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.201 GMT [4108] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.201 GMT [22544] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.203 GMT [19796] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.204 GMT [27600] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.204 GMT [28668] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:14.205 GMT [27292] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:18.956 GMT [29112] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:18.957 GMT [15480] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:38:19.033 GMT [12692] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:39:45.441 GMT [25348] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:42:10.237 GMT [28556] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:53:04.575 GMT [15912] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-18 21:53:29.710 GMT [18296] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 13:57:48.656 GMT [5324] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 14:00:01.985 GMT [27620] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 14:01:09.236 GMT [18572] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 14:30:12.979 GMT [17592] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 14:30:12.979 GMT [21172] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 14:30:12.979 GMT [4428] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2023-10-19 17:43:15.462 GMT [14132] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

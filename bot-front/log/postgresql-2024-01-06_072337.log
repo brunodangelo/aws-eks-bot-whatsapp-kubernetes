@@ -1,0 +1,48 @@
+2024-01-06 07:23:37.602 GMT [6316] LOG:  iniciando PostgreSQL 14.8, compiled by Visual C++ build 1914, 64-bit
+2024-01-06 07:23:37.608 GMT [6316] LOG:  escuchando en la direcci�n IPv6 �::�, port 5432
+2024-01-06 07:23:37.608 GMT [6316] LOG:  escuchando en la direcci�n IPv4 �0.0.0.0�, port 5432
+2024-01-06 07:23:37.902 GMT [7568] LOG:  el sistema de bases de datos fue apagado en 2024-01-06 00:06:13 GMT
+2024-01-06 07:23:37.937 GMT [6316] LOG:  el sistema de bases de datos est� listo para aceptar conexiones
+2024-01-08 04:46:20.881 GMT [8428] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 04:47:51.008 GMT [9444] ERROR:  error de sintaxis en o cerca de «tail» en carácter 1
+2024-01-08 04:47:51.008 GMT [9444] SENTENCIA:  tail -f /usr/local/var/postgres/server.log
+2024-01-08 04:48:00.068 GMT [9444] ERROR:  error de sintaxis en o cerca de «less» en carácter 1
+2024-01-08 04:48:00.068 GMT [9444] SENTENCIA:  less /var/log/postgresql/postgresql-10-main.log
+2024-01-08 06:38:18.109 GMT [17892] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 06:38:18.110 GMT [12264] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 06:42:53.335 GMT [19828] ERROR:  no existe la columna «pg_stat_activity» en carácter 8
+2024-01-08 06:42:53.335 GMT [19828] SENTENCIA:  SELECT pg_stat_activity
+2024-01-08 06:42:56.487 GMT [19828] ERROR:  error de sintaxis en o cerca de «pg_stat_activity» en carácter 1
+2024-01-08 06:42:56.487 GMT [19828] SENTENCIA:  pg_stat_activity
+2024-01-08 06:42:59.192 GMT [19828] ERROR:  error de sintaxis en o cerca de «pg_backend_pid» en carácter 1
+2024-01-08 06:42:59.192 GMT [19828] SENTENCIA:  pg_backend_pid()
+2024-01-08 06:47:20.891 GMT [19828] ERROR:  no existe la relación «t» en carácter 15
+2024-01-08 06:47:20.891 GMT [19828] SENTENCIA:  select * from t; select * from audit.logged_actions;
+2024-01-08 06:47:27.392 GMT [19828] ERROR:  no existe la relación «audit.logged_actions» en carácter 15
+2024-01-08 06:47:27.392 GMT [19828] SENTENCIA:  select * from audit.logged_actions;
+2024-01-08 06:52:19.855 GMT [19828] ERROR:  error de sintaxis en o cerca de «pg_lsclusters» en carácter 1
+2024-01-08 06:52:19.855 GMT [19828] SENTENCIA:  pg_lsclusters
+2024-01-08 06:52:27.905 GMT [19828] ERROR:  no existe la columna «pg_lsclusters» en carácter 8
+2024-01-08 06:52:27.905 GMT [19828] SENTENCIA:  SELECT pg_lsclusters
+2024-01-08 06:55:20.851 GMT [19828] ERROR:  error de sintaxis en o cerca de «find» en carácter 1
+2024-01-08 06:55:20.851 GMT [19828] SENTENCIA:  find / -type f -name "postgresql-Tue.log"
+2024-01-08 07:00:03.178 GMT [19828] ERROR:  no existe la función pg_lsclusters() en carácter 8
+2024-01-08 07:00:03.178 GMT [19828] HINT:  Ninguna función coincide en el nombre y tipos de argumentos. Puede ser necesario agregar conversión explícita de tipos.
+2024-01-08 07:00:03.178 GMT [19828] SENTENCIA:  SELECT pg_lsclusters()
+2024-01-08 07:02:05.083 GMT [25824] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 07:02:05.083 GMT [22792] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 07:02:05.084 GMT [19828] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 07:02:05.084 GMT [27456] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 07:02:05.202 GMT [20312] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 12:37:59.283 GMT [21920] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-08 12:41:53.433 GMT [23912] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	

@@ -1,0 +1,25 @@
+2024-01-02 20:12:16.169 GMT [20048] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 20:12:24.036 GMT [12876] ERROR:  no existe la relación «agile_teams» en carácter 13
+2024-01-02 20:12:24.036 GMT [12876] SENTENCIA:  INSERT INTO agile_teams (nombre,vicepresidencia,direccion,gerencia,pais_id,tren_id,status) VALUES ($1,$2,$3,$4,$5,$6,$7)
+2024-01-02 20:12:24.057 GMT [24536] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 20:12:36.199 GMT [38216] ERROR:  inserción o actualización en la tabla «agiles_teams» viola la llave foránea «agiles_teams_tren_id_fkey»
+2024-01-02 20:12:36.199 GMT [38216] DETALLE:  La llave (tren_id)=(1) no está presente en la tabla «trenes».
+2024-01-02 20:12:36.199 GMT [38216] SENTENCIA:  INSERT INTO agiles_teams (nombre,vicepresidencia,direccion,gerencia,pais_id,tren_id,status) VALUES ($1,$2,$3,$4,$5,$6,$7)
+2024-01-02 20:12:36.212 GMT [25900] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 20:39:22.870 GMT [36364] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:21:03.799 GMT [11160] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:21:03.799 GMT [31800] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:21:03.800 GMT [35180] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:21:03.800 GMT [24516] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:21:03.802 GMT [1580] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
+2024-01-02 23:22:18.980 GMT [34248] LOG:  no se pudo recibir datos del cliente: An existing connection was forcibly closed by the remote host.
+	
