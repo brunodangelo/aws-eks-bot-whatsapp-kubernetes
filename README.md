@@ -33,7 +33,8 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
   - Reemplazar en "image", dentro de cada deployment.yaml localizados en la carpeta "k8s", el valor por la URI de la imagen en ECR.
   - Ejecutar los siguientes comandos para la creacion de los deployments y los servicios (posicionarse en k8s):
 
-      ```minikube start
+      ```
+      minikube start
     
       kubectl apply -f back-node/deployment-back-node.yaml
       kubectl apply -f back-node/service-back-node.yaml
