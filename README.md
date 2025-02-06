@@ -8,9 +8,8 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
   - *k8s*: manifiestos .yaml para el despliegue utilizando kubernetes
   - *scripts bash*: archivos para automatizar la creacion de las imagenes y los contenedores para el despliegue local con Docker
 
-*NOTAS: Para replicar este proyecto se debe tener en un servidor remoto una base de datos en PostgreSQL, conectandose a ella desde la variable de entorno PSQL_URI presente en cada deployment.yaml. Tambien se puede desplegar en un pod dentro del cluster y realizar las conexiones correspondientes al código actual.*
-
 ![aws kubernetes drawio](https://github.com/user-attachments/assets/dfeddef0-4327-440e-9e55-c7555a3e7501)
+*NOTAS: Para replicar este proyecto se debe tener en un servidor remoto una base de datos en PostgreSQL, conectandose a ella desde la variable de entorno PSQL_URI presente en cada deployment.yaml. Tambien se puede desplegar en un pod dentro del cluster y realizar las conexiones correspondientes al código actual.*
 
 # Pasos para despliegue
 
