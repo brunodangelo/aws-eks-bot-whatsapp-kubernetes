@@ -10,9 +10,9 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
 
 *NOTAS: Para replicar este proyecto se debe tener en un servidor remoto una base de datos en PostgreSQL, conectandose a ella desde la variable de entorno PSQL_URI presente en cada deployment.yaml. Tambien se puede desplegar en un pod dentro del cluster y realizar las conexiones correspondientes al código actual.*
 
-![{0AED5869-50E9-441E-BBBB-353066174267}](https://github.com/user-attachments/assets/80df8afa-8750-40e1-a80d-14911c93088e)
+![aws kubernetes drawio](https://github.com/user-attachments/assets/9e005692-60a4-49e9-adec-cfb1c3337c68)
 
-# Pasos para despligue
+# Pasos para despliegue
 
 ### Paso 1 (pruebas en local con Docker):
   - Ejecutar script en Bash llamado "1-creacion-imagenes.sh" para crear las imagenes de Docker a partir del codigo de cada modulo
