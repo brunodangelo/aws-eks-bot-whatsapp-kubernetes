@@ -3,8 +3,8 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
 
 ### Descripción de cada carpeta
   - *back-node*: Backend desarrollado en nodejs, con el framework express
-  - *bot-node*: Proceso del chatbot de WhatsApp desarrollado en nodejs, con la libreria open-source BuilderBot
-  - *front-prod*: Frontend de autogestión desarrolado en Angular
+  - *bot-node*: Proceso del chatbot de WhatsApp desarrollado en nodejs, con la libreria open-source [BuilderBot](https://www.builderbot.app/en)
+  - *front-prod*: Frontend de autogestión desarrolado en Angular (se utiliza como base la plantilla free "nice-admin-angular-lite")
   - *k8s*: manifiestos .yaml para el despliegue utilizando kubernetes
   - *scripts bash*: archivos para automatizar la creacion de las imagenes y los contenedores para el despliegue local
 
