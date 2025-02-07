@@ -104,5 +104,7 @@ Contiene un frontend en Angular para interactuar con el usuario y poder ver/edit
     # App desplegada en EKS, resultado final:
     ![{DA6E8D43-9334-435B-8992-4C5DD15A85B4}](https://github.com/user-attachments/assets/944f6a08-128d-4585-b1a9-d5f5edd3a25a)
     ![{1139DAE6-34A8-4C10-9D81-2CAEE392BF5A}](https://github.com/user-attachments/assets/7e2969f4-2a45-4f34-8bf9-0d630f2b2fdd)
+    ![{C1890996-EC89-49E6-B855-48617669F879}](https://github.com/user-attachments/assets/505b524f-3215-4789-ab98-8cf2551360a7)
+
 
     
