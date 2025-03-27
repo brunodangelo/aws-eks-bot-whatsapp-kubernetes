@@ -1,6 +1,8 @@
 # Chatbot de WhatsApp desplegado en AWS EKS con Kubernetes
 Contiene un frontend en Angular para interactuar con el usuario y poder ver/editar las Opciones del menú y Alertas que se registran en la base de datos (PostgreSQL). Para el Backend se utiliza nodejs. Rutas protegidas con jwt. Despliegue local con Docker y en producción en EKS.
 
+Explicación paso a paso: https://todotelco.com/proyecto-aws-desplegar-bot-de-whatsapp-con-kubernetes-y-eks/
+
 ### Descripción de cada carpeta
   - *back-node*: Backend desarrollado en nodejs, con el framework express
   - *bot-node*: Proceso del chatbot de WhatsApp desarrollado en nodejs, con la libreria open-source [BuilderBot](https://www.builderbot.app/en)
